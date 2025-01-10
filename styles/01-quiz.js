@@ -16,6 +16,10 @@ export const Wrapper = styled.div`
     margin-left : 80px;
 `;
 
+export const Inupt = styled.div`
+    w
+`
+
 export const InputWrapper = styled.div`
     width: 560px;
     // learn in Portfolio reference Code
