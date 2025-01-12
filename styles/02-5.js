@@ -17,11 +17,12 @@ export const Wrapper = styled.div`
 
 export const TitleWrapper = styled.div`
     width: 540px;
-    height: 100%;
+    // height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 140px;
 `
 
 export const TitleImage = styled.img`
@@ -60,7 +61,7 @@ export const Email = styled.input`
     border-bottom: 1px solid #7D7D7D;
     background-color: transparent;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     color: white;
 `
 
@@ -72,7 +73,7 @@ export const Password = styled.input`
     background-color: transparent;
     font-size: 24px;
     color: white;
-    margin-bottom: 60px;
+    margin-bottom: 5px;
 `
 
 export const LogInButton = styled.button`
@@ -141,4 +142,20 @@ export const KakaoLogInButton = styled.button`
 
 export const KakaoIcon = styled.img`
     padding-right: 40px;
+`
+
+export const EmailError = styled.div`
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FF1B6D;  
+    margin-bottom: 40px;
+`
+
+export const PasswordError = styled.div`
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FF1B6D;
+    margin-bottom: 60px;
 `
